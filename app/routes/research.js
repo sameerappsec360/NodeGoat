@@ -4,6 +4,11 @@ const {
     environmentalScripts
 } = require("../../config/config");
 
+const paymentCard = '4111111111111111';
+const cvv = '928';
+const expYear = '2024';
+const expMonth = '10';
+
 function ResearchHandler(db) {
     "use strict";
 

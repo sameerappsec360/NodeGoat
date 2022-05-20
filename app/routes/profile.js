@@ -1,5 +1,9 @@
 const ProfileDAO = require("../data/profile-dao").ProfileDAO;
 const ESAPI = require('node-esapi')
+const githubPersonalAccessToken = 'ghp_ABCdefgHiJklMNo5pQrrsTUvwXYzVv47DRKf'
+const githubOAuthToken = 'gho_ABCdefgHiJklMNo5pQrrsTUvwXYzVv47DRKf'
+const githubRefreshToken = 'ghr_ABCdefgHiJklMNo5pQrrsTUvwXYzVv47DRKf'
+const githubAppToken = 'ghu_ABCdefgHiJklMNo5pQrrsTUvwXYzVv47DRKf'
 const {
     environmentalScripts
 } = require("../../config/config");
